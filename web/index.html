@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="varsitygo_app">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>varsitygo_app</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- 🔥 Firebase Web SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-database-compat.js"></script>
+
+  <script>
+    // ✅ VarsityGo Firebase Config
+    const firebaseConfig = {
+      apiKey: "AIzaSyB31rW8OZ8uLkwdAjUteuNuSD2csAwZ8rM",
+      authDomain: "varsitygo-a7c39.firebaseapp.com",
+      projectId: "varsitygo-a7c39",
+      storageBucket: "varsitygo-a7c39.firebasestorage.app",
+      messagingSenderId: "636852455225",
+      appId: "1:636852455225:web:735f100c53acc3336c0ae8",
+      measurementId: "G-BY0LQXBQX5"
+    };
+
+    // 🔐 Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+</head>
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
